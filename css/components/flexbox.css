@@ -1,0 +1,38 @@
+/* play around with flex-direction, justify-content and the height of container */
+#container1 {
+  background-color: #003049;
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  
+  /* align the content horizontally (if direction row) */
+
+  justify-content: center;
+  /* justify-content: start; */
+  /* justify-content: end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* gap: 8px; */
+  /* align items vertically (if direction row) */
+  align-items: center;
+  /* align-items: start; */
+  /* align-items: end; */
+  
+  /* if items don't fit the parent, they wrap below each other instead of overflowing */
+  /* flex-wrap: wrap; */
+  /*flex-wrap: wrap-reverse; => this changes the cross axis, content wraps from the opposite side, think bottom right */
+}
+
+#container1 div {
+  width: 200px;
+  height: 200px;
+  /* text-align: center; */
+}
+/* 
+.item {
+  flex-grow: 1;
+} */

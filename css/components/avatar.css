@@ -1,0 +1,27 @@
+.avatar {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.avatar-lg {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.avatar-xl {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* .img-circle {
+  border-radius: 50%;
+} */
